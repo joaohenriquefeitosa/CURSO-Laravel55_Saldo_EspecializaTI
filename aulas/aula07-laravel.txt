@@ -1,0 +1,5 @@
+Aula 07 -
+
+Quando retirar o timestamps da migrations, cria um atributo publico na model desta tabela:
+
+public $timestamps = false;

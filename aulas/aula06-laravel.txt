@@ -1,0 +1,13 @@
+Aula 06 -
+
+Para alterar o nome padrão que vem nas tabelas nos migrations, primeiro alterar o nome da tabela na migration em seguida na model criar:
+private $table = 'novo_nome_da_tabela';
+
+
+para criar uma model dentro de uma pasta e já setar o namespace (-m para gerar a migration):
+php artisan make:model Models\\Nome_da_Model -m
+
+
+Depois que deletar algum arquivo manualmente, rodar o comando:
+
+composer dump-autoload
